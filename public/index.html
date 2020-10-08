@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <title>接口测试</title>
+    <style>
+        input,textarea{
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+<div id="root">
+    接口地址:
+    <input type="text" value="" id="url" placeholder="例如：/Api/getHDomain.do">
+    <br>
+    <br>
+    调用次数：
+    <input type="number" value="" id="num" placeholder="例如：5">
+    <br>
+    <br>
+    请求方法：
+    <select name="" id="methods">
+        <option value="get">GET</option>
+        <option value="post">POST</option>
+    </select>
+    <br>
+    <br>
+    请求参数:
+    <textarea name="" id="data" cols="30" rows="10" value=""  placeholder='例如：{"type":1,"name":"张三"}'></textarea>
+    <br>
+    <br>
+    <button id="btn"> 确定 </button>
+</div>
+</body>
+</html>
